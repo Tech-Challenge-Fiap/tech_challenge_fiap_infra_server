@@ -9,14 +9,14 @@ variable "region" {
 
 variable "vpc_id" {
   description = "VPC ID"
-  default     = "vpc-0b136b343c5d5283b"
+  default     = "vpc-0d40bcb59379e3b6f"
 }
 
 
 variable "subnets_ids" {
-  default = ["subnet-0440edd530538d07f", "subnet-00e3c8a2874e436aa", "subnet-0814f1459b04c72bf", "subnet-0b5de67aa091fce5c"]
+  default = ["subnet-01e913c64501e8c3b", "subnet-0cbae5f018fdd0bbf", "subnet-03f9329d8283013c5", "subnet-0b6f40ca5f0c16ba5"]
 }
 
 variable "private_subnets_ids" {
-  default = ["subnet-0440edd530538d07f", "subnet-00e3c8a2874e436aa"]
+  default = ["subnet-0cbae5f018fdd0bbf", "subnet-0b6f40ca5f0c16ba5"]
 }
